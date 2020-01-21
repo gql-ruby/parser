@@ -42,6 +42,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_development_dependency 'rubocop'
 
+  spec.add_dependency 'dry-initializer'
   spec.add_dependency 'gql_ruby-lexer'
   spec.add_dependency 'gql_ruby-utils'
 end
